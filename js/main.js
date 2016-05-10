@@ -14,7 +14,7 @@ function doTweet(tweetText) {
 	element_one.setAttribute("type","checkbox");
 	element_one.id="tarea"
 	element_one.onchange=function(){
-		element_two=tweetText.strike();
+		element_two.innerHTML=tweetText.strike();
 	}
 	var element_two=document.createElement("span");
 	element_two.id="description";
