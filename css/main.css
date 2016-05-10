@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+}
+.mg-100{
+	margin-top: 100px;
+}
+.mg-30{
+	margin-top: 10px;
+}
+.w-100{
+	width: calc( 100% - 20px );
+}
+.inputBox{
+	padding:20px;
+}
+.btn-default{
+	border-radius: 15px;
+	background: #f1f1f1;
+}
+.container-fluid{
+	border-top: 1px solid black;
+		height: calc( 100vh - 360px );
+		overflow-y: scroll;
+		scrollbar-shadow-color:red;
+}
+.contenido{
+	margin-top: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#tweet{
+	padding: 15px;
+	margin: 20px 0;
+	background: #f1f1f1;
+}
+#tarea, #description, .glyphicon{
+	display: inline-block;
+	padding:5px;
+} 
+#description{
+	width: calc(100% - 50px);
+}

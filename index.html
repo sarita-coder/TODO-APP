@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>TODO Application</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="navbar navbar-default navbar-fixed-top">
+		<div class="container text-center">
+			<h1 >TODO APP</h1>
+		</div>
+	</div>
+	<div class="container ">
+		<div class="row mg-100 text-center">
+			<textarea name="work" class="w-100" id="inputBox" rows="10"></textarea>
+		</div>
+		<button class="btn btn-default" id="tweetButton" onclick="getInputValue()">
+			<span class="glyphicon glyphicon-cog">Agregar</span>
+		</button>
+	</div>
+	<div class=" container-fluid mg-30">
+		<div class="container">
+			<div class="row">
+				<div class="contenido">
+					<div id="tweets">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> 
+
+	<script src="js/main.js"></script>
+</body>
+</html>
