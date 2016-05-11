@@ -41,4 +41,11 @@
 } 
 #description{
 	width: calc(100% - 50px);
+	word-wrap: break-word;
+}
+.decoration{
+	text-decoration: line-through;
+}
+.no_decoration{
+    text-decoration: none;
 }
